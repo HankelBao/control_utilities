@@ -1,0 +1,170 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+Advance	../control_utilities/chrono_terrain.py	/^    def Advance(self, step):$/;"	kind:member	line:83
+Advance	../control_utilities/chrono_vehicle.py	/^    def Advance(self, step):$/;"	kind:member	line:164
+Advance	../control_utilities/chrono_wrapper.py	/^    def Advance(self, step):$/;"	kind:member	line:247
+Advance	../control_utilities/driver.py	/^    def Advance(self, step):$/;"	kind:member	line:30
+Advance	../control_utilities/matplotlib_wrapper.py	/^    def Advance(self, step, save=False):$/;"	kind:member	line:42
+BindAll	../control_utilities/chrono_wrapper.py	/^    def BindAll(self):$/;"	kind:member	line:124
+ChronoTerrain	../control_utilities/chrono_terrain.py	/^class ChronoTerrain:$/;"	kind:class	line:6
+ChronoVehicle	../control_utilities/chrono_vehicle.py	/^class ChronoVehicle:$/;"	kind:class	line:7
+ChronoWrapper	../control_utilities/chrono_wrapper.py	/^class ChronoWrapper:$/;"	kind:class	line:12
+Close	../control_utilities/chrono_wrapper.py	/^    def Close(self):$/;"	kind:member	line:296
+DrawBarriers	../control_utilities/chrono_wrapper.py	/^    def DrawBarriers(self, points, n=5, height=1, width=1):$/;"	kind:member	line:170
+DrawCones	../control_utilities/chrono_wrapper.py	/^    def DrawCones(self, points, color, z=.3, n=10):$/;"	kind:member	line:198
+DrawObstacles	../control_utilities/chrono_wrapper.py	/^    def DrawObstacles(self, obstacles, z=0.0):$/;"	kind:member	line:224
+DrawPath	../control_utilities/chrono_wrapper.py	/^    def DrawPath(self, path, z=0.0, r=0.0, g=0.8, b=0.0):$/;"	kind:member	line:151
+Driver	../control_utilities/driver.py	/^class Driver(veh.ChDriver):$/;"	kind:class	line:3
+GetState	../control_utilities/chrono_vehicle.py	/^    def GetState(self):$/;"	kind:member	line:194
+GetState	../control_utilities/chrono_wrapper.py	/^    def GetState(self):$/;"	kind:member	line:315
+GetState	../control_utilities/opponent.py	/^    def GetState(self):$/;"	kind:member	line:38
+GetSystem	../control_utilities/chrono_vehicle.py	/^    def GetSystem(self):$/;"	kind:member	line:176
+GetTargetThrottle	../control_utilities/driver.py	/^    def GetTargetThrottle(self):$/;"	kind:member	line:46
+MatplotlibWrapper	../control_utilities/matplotlib_wrapper.py	/^class MatplotlibWrapper:$/;"	kind:class	line:7
+Obstacle	../control_utilities/obstacle.py	/^class Obstacle:$/;"	kind:class	line:3
+Opponent	../control_utilities/opponent.py	/^class Opponent:$/;"	kind:class	line:8
+Path	../control_utilities/path.py	/^class Path():$/;"	kind:class	line:13
+RandomObstacleGenerator	../control_utilities/obstacle.py	/^class RandomObstacleGenerator:$/;"	kind:class	line:36
+RandomPathGenerator	../control_utilities/path.py	/^class RandomPathGenerator():$/;"	kind:class	line:342
+RandomTrack	../control_utilities/track.py	/^class RandomTrack(Track):$/;"	kind:class	line:99
+Segmentations	../control_utilities/segmentation.py	/^class Segmentations:$/;"	kind:class	line:15
+SetBrakingDelta	../control_utilities/driver.py	/^    def SetBrakingDelta(self, braking):$/;"	kind:member	line:64
+SetGains	../control_utilities/driver.py	/^    def SetGains(self, steering_gain, throttle_gain, braking_gain):$/;"	kind:member	line:22
+SetSteeringDelta	../control_utilities/driver.py	/^    def SetSteeringDelta(self, steering):$/;"	kind:member	line:61
+SetStepSize	../control_utilities/driver.py	/^    def SetStepSize(self, step_size):$/;"	kind:member	line:27
+SetTargetBraking	../control_utilities/driver.py	/^    def SetTargetBraking(self, braking):$/;"	kind:member	line:55
+SetTargetSteering	../control_utilities/driver.py	/^    def SetTargetSteering(self, steering):$/;"	kind:member	line:52
+SetTargetThrottle	../control_utilities/driver.py	/^    def SetTargetThrottle(self, throttle):$/;"	kind:member	line:49
+SetTerrain	../control_utilities/chrono_vehicle.py	/^    def SetTerrain(self, terrain):$/;"	kind:member	line:150
+SetThrottleDelta	../control_utilities/driver.py	/^    def SetThrottleDelta(self, throttle):$/;"	kind:member	line:58
+State	../control_utilities/chrono_vehicle.py	/^    class State:$/;"	kind:class	line:180
+State	../control_utilities/chrono_wrapper.py	/^    class State:$/;"	kind:class	line:301
+State	../control_utilities/opponent.py	/^    class State:$/;"	kind:class	line:23
+Synchronize	../control_utilities/chrono_terrain.py	/^    def Synchronize(self, time):$/;"	kind:member	line:80
+Synchronize	../control_utilities/chrono_vehicle.py	/^    def Synchronize(self, time):$/;"	kind:member	line:155
+Track	../control_utilities/track.py	/^class Track:$/;"	kind:class	line:7
+Update	../control_utilities/obstacle.py	/^    def Update(self, step):$/;"	kind:member	line:21
+Update	../control_utilities/opponent.py	/^    def Update(self, time, step):$/;"	kind:member	line:13
+Vehicle	../control_utilities/vehicle.py	/^class Vehicle:$/;"	kind:class	line:1
+__init__	../control_utilities/chrono_terrain.py	/^    def __init__(self, step_size, sys, irrlicht=False, terrain_type='json', height=-0.5, width=3/;"	kind:member	line:7
+__init__	../control_utilities/chrono_vehicle.py	/^        def __init__(self, x=0.0, y=0.0, yaw=0.0, v=0.0):$/;"	kind:member	line:183
+__init__	../control_utilities/chrono_vehicle.py	/^    def __init__(self, step_size, sys, controller, irrlicht=False, vehicle_type='json', initLoc=/;"	kind:member	line:8
+__init__	../control_utilities/chrono_wrapper.py	/^        def __init__(self, x=0.0, y=0.0, yaw=0.0, v=0.0):$/;"	kind:member	line:306
+__init__	../control_utilities/chrono_wrapper.py	/^    def __init__(self, step_size, system, track, vehicle, terrain, irrlicht=False, obstacles=Non/;"	kind:member	line:13
+__init__	../control_utilities/driver.py	/^    def __init__(self,vehicle):$/;"	kind:member	line:4
+__init__	../control_utilities/matplotlib_wrapper.py	/^    def __init__(self, step_size, vehicle, opponents=None, obstacles=None, render_step_size=1.0\//;"	kind:member	line:8
+__init__	../control_utilities/obstacle.py	/^    def __init__(self, p1, p2, i, dist, num, width=1, length=2, movement_rate=-1, movement_dista/;"	kind:member	line:4
+__init__	../control_utilities/opponent.py	/^        def __init__(self, x=0.0, y=0.0, yaw=0.0, v=0.0, pos_dt=chrono.ChVectorD(0,0,0)):$/;"	kind:member	line:26
+__init__	../control_utilities/opponent.py	/^    def __init__(self, vehicle, controller):$/;"	kind:member	line:9
+__init__	../control_utilities/path.py	/^    def __init__(self, points, num_points=1000, closed=True, raw_mode=False, z=0.0, brake=1.0, a/;"	kind:member	line:76
+__init__	../control_utilities/path.py	/^    def __init__(self, x_max, y_max, num_points=25, min_distance=17, min_angle=120):$/;"	kind:member	line:373
+__init__	../control_utilities/segmentation.py	/^    def __init__(self, track, percision=0.500, max_distance=15):$/;"	kind:member	line:22
+__init__	../control_utilities/track.py	/^    def __init__(self, center, width=10, num_points=1000, closed=True, raw_mode=False):$/;"	kind:member	line:34
+__init__	../control_utilities/track.py	/^    def __init__(self, x_max=100, y_max=100, width=10):$/;"	kind:member	line:124
+__init__	../control_utilities/vehicle.py	/^    def __init__(self):$/;"	kind:member	line:2
+__init__.py	../control_utilities/__init__.py	1;"	kind:file	line:1
+__len__	../control_utilities/path.py	/^    def __len__(self):$/;"	kind:member	line:339
+__str__	../control_utilities/chrono_vehicle.py	/^        def __str__(self):$/;"	kind:member	line:191
+__str__	../control_utilities/chrono_wrapper.py	/^        def __str__(self):$/;"	kind:member	line:312
+__str__	../control_utilities/opponent.py	/^        def __str__(self):$/;"	kind:member	line:35
+calcAngle	../control_utilities/chrono_utilities.py	/^def calcAngle(p1, p2, z=0.0):$/;"	kind:function	line:26
+calcAngle	../control_utilities/path.py	/^    def calcAngle(self, v1, v2):$/;"	kind:member	line:483
+calcClosestPoint	../control_utilities/path.py	/^    def calcClosestPoint(self, pos, n=20):$/;"	kind:member	line:248
+calcConvexHull	../control_utilities/path.py	/^    def calcConvexHull(self, points):$/;"	kind:member	line:449
+calcCurvature	../control_utilities/path.py	/^    def calcCurvature(self, pos, n=20):$/;"	kind:member	line:274
+calcDistance	../control_utilities/path.py	/^    def calcDistance(self, pos, n=20):$/;"	kind:member	line:261
+calcIndex	../control_utilities/path.py	/^    def calcIndex(self, pos, n=20):$/;"	kind:member	line:226
+calcPose	../control_utilities/chrono_utilities.py	/^def calcPose(p1, p2, z=0.0):$/;"	kind:function	line:7
+calcPosition	../control_utilities/path.py	/^    def calcPosition(self, s):$/;"	kind:member	line:300
+calcPositionFromPoint	../control_utilities/path.py	/^    def calcPositionFromPoint(self, pos, dist):$/;"	kind:member	line:309
+calcRandomPose	../control_utilities/chrono_utilities.py	/^def calcRandomPose(path, s_min=None, s_max=None):$/;"	kind:function	line:41
+calcSpeed	../control_utilities/path.py	/^    def calcSpeed(self, pos, n=20):$/;"	kind:member	line:287
+checkBoundary	../control_utilities/track.py	/^    def checkBoundary(self, pos, n=20):$/;"	kind:member	line:76
+checkDistances	../control_utilities/path.py	/^        def checkDistances(points, point):$/;"	kind:function	line:432
+checkFile	../control_utilities/chrono_utilities.py	/^def checkFile(file):$/;"	kind:function	line:67
+chrono	../control_utilities/chrono_terrain.py	/^import pychrono as chrono$/;"	kind:namespace	line:1
+chrono	../control_utilities/chrono_utilities.py	/^import pychrono as chrono$/;"	kind:namespace	line:1
+chrono	../control_utilities/chrono_vehicle.py	/^import pychrono as chrono$/;"	kind:namespace	line:1
+chrono	../control_utilities/chrono_wrapper.py	/^import pychrono as chrono$/;"	kind:namespace	line:1
+chrono	../control_utilities/opponent.py	/^import pychrono as chrono$/;"	kind:namespace	line:6
+chrono	../control_utilities/path.py	/^import pychrono as chrono$/;"	kind:namespace	line:11
+chrono	../control_utilities/track.py	/^import pychrono as chrono$/;"	kind:namespace	line:5
+chrono_terrain.py	../control_utilities/chrono_terrain.py	1;"	kind:file	line:1
+chrono_utilities.py	../control_utilities/chrono_utilities.py	1;"	kind:file	line:1
+chrono_vehicle.py	../control_utilities/chrono_vehicle.py	1;"	kind:file	line:1
+chrono_wrapper.py	../control_utilities/chrono_wrapper.py	1;"	kind:file	line:1
+chronoirr	../control_utilities/chrono_wrapper.py	/^import pychrono.irrlicht as chronoirr$/;"	kind:namespace	line:3
+close	../control_utilities/matplotlib_wrapper.py	/^    def close(self):$/;"	kind:member	line:30
+config.py	../.vim/.ropeproject/config.py	1;"	kind:file	line:1
+copy	../control_utilities/obstacle.py	/^    def copy(self, p1, p2, new_i):$/;"	kind:member	line:33
+createChronoSystem	../control_utilities/chrono_utilities.py	/^def createChronoSystem():$/;"	kind:function	line:57
+create_segmentations	../control_utilities/segmentation.py	/^    def create_segmentations(self):$/;"	kind:member	line:43
+curvature	../control_utilities/path.py	/^    def curvature(self, dx, dy, ddx, ddy):$/;"	kind:member	line:186
+distance	../control_utilities/path.py	/^    def distance(self, x, y):$/;"	kind:member	line:198
+driver.py	../control_utilities/driver.py	1;"	kind:file	line:1
+generateObstacles	../control_utilities/obstacle.py	/^    def generateObstacles(path, i_min, i_max, n=1, width=3, length=4, dist=10, seed=0, reversed=/;"	kind:member	line:38
+generatePath	../control_utilities/path.py	/^    def generatePath(self, seed=1.0, reversed=0):$/;"	kind:member	line:395
+generatePoints	../control_utilities/path.py	/^    def generatePoints(self, z=0.0):$/;"	kind:member	line:418
+generateTrack	../control_utilities/track.py	/^    def generateTrack(self, seed=1.0, reversed=0, num_points=1000):$/;"	kind:member	line:140
+generateTrack	../control_utilities/track.py	/^    def generateTrack(self, z=0.0):$/;"	kind:member	line:51
+getCurvature	../control_utilities/path.py	/^    def getCurvature(self, i):$/;"	kind:member	line:281
+getDistance	../control_utilities/path.py	/^    def getDistance(self, i):$/;"	kind:member	line:268
+getPoint	../control_utilities/path.py	/^    def getPoint(self, i):$/;"	kind:member	line:255
+getSpeed	../control_utilities/path.py	/^    def getSpeed(self, i):$/;"	kind:member	line:294
+get_point	../control_utilities/segmentation.py	/^    def get_point(self, index, a):$/;"	kind:member	line:78
+get_points	../control_utilities/segmentation.py	/^    def get_points(self, a):$/;"	kind:member	line:93
+matplotlib_wrapper.py	../control_utilities/matplotlib_wrapper.py	1;"	kind:file	line:1
+moveObstacle	../control_utilities/obstacle.py	/^    def moveObstacle(path, obstacles, obstacle, i_old):$/;"	kind:member	line:57
+np	../control_utilities/matplotlib_wrapper.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../control_utilities/path.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../control_utilities/segmentation.py	/^import numpy as np$/;"	kind:namespace	line:8
+np	../control_utilities/track.py	/^import numpy as np$/;"	kind:namespace	line:2
+obstacle.py	../control_utilities/obstacle.py	1;"	kind:file	line:1
+opponent.py	../control_utilities/opponent.py	1;"	kind:file	line:1
+opponentInSight	../control_utilities/opponent.py	/^def opponentInSight(current_state, opponent_state, perception_distance=20, field_of_view=chrono./;"	kind:function	line:48
+path.py	../control_utilities/path.py	1;"	kind:file	line:1
+plot	../control_utilities/path.py	/^    def plot(self, color, show=True):$/;"	kind:member	line:320
+plot	../control_utilities/segmentation.py	/^    def plot(self):$/;"	kind:member	line:110
+plot	../control_utilities/track.py	/^    def plot(self, seed=1.0, show=True):$/;"	kind:member	line:155
+plot	../control_utilities/track.py	/^    def plot(self, show=True, centerline=True):$/;"	kind:member	line:82
+plotObstacles	../control_utilities/matplotlib_wrapper.py	/^    def plotObstacles(self, color="-k"):$/;"	kind:member	line:141
+plotOpponents	../control_utilities/matplotlib_wrapper.py	/^    def plotOpponents(self):$/;"	kind:member	line:38
+plotText	../control_utilities/matplotlib_wrapper.py	/^    def plotText(self):$/;"	kind:member	line:61
+plotTrack	../control_utilities/matplotlib_wrapper.py	/^    def plotTrack(self, track):$/;"	kind:member	line:33
+plotVehicle	../control_utilities/matplotlib_wrapper.py	/^    def plotVehicle(self, vehicle, cabcolor="-k", wheelcolor="-k"):  # pragma: no cover$/;"	kind:member	line:71
+plot_path_speed	../control_utilities/path.py	/^    def plot_path_speed(self):$/;"	kind:member	line:175
+plot_speed_profile	../control_utilities/path.py	/^    def plot_speed_profile(self):$/;"	kind:member	line:157
+plt	../control_utilities/matplotlib_wrapper.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../control_utilities/path.py	/^        import matplotlib.pyplot as plt$/;"	kind:namespace	line:330
+plt	../control_utilities/path.py	/^from matplotlib import pyplot as plt$/;"	kind:unknown	line:7
+plt	../control_utilities/segmentation.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:9
+plt	../control_utilities/track.py	/^        import matplotlib.pyplot as plt$/;"	kind:namespace	line:165
+plt	../control_utilities/track.py	/^        import matplotlib.pyplot as plt$/;"	kind:namespace	line:54
+plt	../control_utilities/track.py	/^        import matplotlib.pyplot as plt$/;"	kind:namespace	line:90
+point_distance	../control_utilities/path.py	/^    def point_distance(self, x, y):$/;"	kind:member	line:192
+postprocess	../control_utilities/chrono_wrapper.py	/^import pychrono.postprocess as postprocess$/;"	kind:namespace	line:4
+project_opened	../.vim/.ropeproject/config.py	/^def project_opened(project):$/;"	kind:function	line:112
+read	../setup.py	/^def read(fname):$/;"	kind:function	line:15
+segmentation.py	../control_utilities/segmentation.py	1;"	kind:file	line:1
+setDataDirectory	../control_utilities/chrono_utilities.py	/^def setDataDirectory():$/;"	kind:function	line:71
+setIndex	../control_utilities/path.py	/^    def setIndex(self, i):$/;"	kind:member	line:317
+set_prefs	../.vim/.ropeproject/config.py	/^def set_prefs(prefs):$/;"	kind:function	line:5
+setup.py	../setup.py	1;"	kind:file	line:1
+speed	../control_utilities/path.py	/^    def speed(self, x, y, k):$/;"	kind:member	line:214
+toChPath	../control_utilities/chrono_wrapper.py	/^        def toChPath(path):$/;"	kind:function	line:156
+track.py	../control_utilities/track.py	1;"	kind:file	line:1
+update	../control_utilities/track.py	/^        def update(val):$/;"	kind:function	line:175
+update_profile	../control_utilities/path.py	/^    def update_profile(self):$/;"	kind:member	line:127
+update_vmax	../control_utilities/path.py	/^    def update_vmax(self):$/;"	kind:member	line:114
+veh	../control_utilities/chrono_terrain.py	/^import pychrono.vehicle as veh$/;"	kind:namespace	line:2
+veh	../control_utilities/chrono_utilities.py	/^import pychrono.vehicle as veh$/;"	kind:namespace	line:2
+veh	../control_utilities/chrono_vehicle.py	/^import pychrono.vehicle as veh$/;"	kind:namespace	line:2
+veh	../control_utilities/chrono_wrapper.py	/^import pychrono.vehicle as veh$/;"	kind:namespace	line:2
+veh	../control_utilities/driver.py	/^import pychrono.vehicle as veh$/;"	kind:namespace	line:1
+vehicle.py	../control_utilities/vehicle.py	1;"	kind:file	line:1
+yaw	../control_utilities/path.py	/^    def yaw(self, dx, dy):$/;"	kind:member	line:205

@@ -73,7 +73,7 @@ class Path():
         calculates pose (position and orientation) at a point along the path
 
     """
-    def __init__(self, points, num_points=1000, closed=True, raw_mode=False, z=0.0, brake=1.0, acc=1.0):
+    def __init__(self, points, num_points=1000, closed=True, raw_mode=False, z=0.0, brake=2, acc=10):
         self.u_s = .25
         self.g = 9.81
         self.speed_max = 100
@@ -111,6 +111,17 @@ class Path():
         self.brake = brake
         self.acc = acc
 
+    def next_segmentation_index(self, init_index, direction, ks_precision, max_distance):
+        i = init_index
+        ks_sum = 0
+        total_distance = 0
+        while ks_sum < ks_precision and total_distance < max_distance:
+            ps = self.ps[i-direction % len(self.ps)]
+            total_distance += ps
+            ks_sum += ps * np.abs(self.k[i])
+            i += direction
+        return i
+
     def update_vmax(self):
         for i in range(self.length):
             v_max = self.v_max[i]
@@ -128,7 +139,7 @@ class Path():
         v = []
         t = []
 
-        current_speed = 0
+        current_speed = self.v_max[-1]
         for i in range(len(self.ps)):
             v.append(current_speed)
 
