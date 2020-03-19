@@ -116,7 +116,7 @@ class Path():
         ks_sum = 0
         total_distance = 0
         while ks_sum < ks_precision and total_distance < max_distance:
-            ps = self.ps[i-direction % len(self.ps)]
+            ps = self.ps[(i-direction) % len(self.ps)]
             total_distance += ps
             ks_sum += ps * np.abs(self.k[i])
             i += direction
