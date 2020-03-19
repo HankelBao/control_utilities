@@ -120,7 +120,7 @@ class Path():
             total_distance += ps
             ks_sum += ps * np.abs(self.k[i])
             i += direction
-        return i
+        return i % self.length
 
     def update_vmax(self):
         for i in range(self.length):
